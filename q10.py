@@ -15,3 +15,22 @@
 ## jjj,18
 ##
 ##
+datos=open('data.csv','r').readlines()
+datos=[ line.replace('\t', ';') for line in datos]
+datos=[ line[:-1] for line in datos]
+
+datos=[ line.split(';') for line in datos]
+datos=[ line[-1] for line in datos]
+datos=[ line.split(',') for line in datos]
+datos=[ elem[:-2] for fila in datos for elem in fila ]
+
+conjunto=set(datos)
+nuevo=[[elem, str(datos.count(elem))] for elem in conjunto]
+nuevo.sort()
+registro=[ ','.join(line) for line in nuevo]
+registro='\n'.join(registro)
+    
+with open("resumen.csv", "w") as f:
+    f.write(registro)
+
+print(registro)

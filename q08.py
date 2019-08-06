@@ -17,3 +17,15 @@
 ## ('9', ['A', 'B', 'C', 'E'])
 ##
 ##
+datos=open('data.csv','r').readlines()
+datos=[ line.replace('\t', ';') for line in datos]
+datos=[ line[0:3] for line in datos]
+
+datos=[ line.split(';') for line in datos]
+conjunto=list(set([line[1] for line in datos]))
+conjunto.sort()
+datos=[[line[0], line[1]] for line in datos]
+datos.sort()
+datos1=[ str((elem, [ line[0]  for line in datos if elem== line[1] ])) for elem in conjunto]
+unirtuplas='\n'.join(datos1)
+print(unirtuplas)

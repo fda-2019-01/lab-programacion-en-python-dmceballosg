@@ -1,8 +1,8 @@
->>> import os; print(os.popen('python3 q01.py').read())
+>>> import os; print(os.popen('python q01.py').read())
 190
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q02.py').read())
+>>> import os; print(os.popen('python q02.py').read())
 A,8
 B,7
 C,5
@@ -10,7 +10,7 @@ D,6
 E,14
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q03.py').read())
+>>> import os; print(os.popen('python q03.py').read())
 A,37
 B,36
 C,27
@@ -18,7 +18,7 @@ D,23
 E,67
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q04.py').read())
+>>> import os; print(os.popen('python q04.py').read())
 01,3
 02,4
 03,2
@@ -33,7 +33,7 @@ E,67
 12,3
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q05.py').read())
+>>> import os; print(os.popen('python q05.py').read())
 A,9,1
 B,9,1
 C,9,0
@@ -41,20 +41,20 @@ D,7,1
 E,9,1
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q06.py').read())
-aaa,0,6
-bbb,4,7
-ccc,0,1
-ddd,5,5
-eee,0,0
-fff,4,9
-ggg,3,3
-hhh,6,8
-iii,2,7
-jjj,2,5
+>>> import os; print(os.popen('python q06.py').read())
+aaa,0,9
+bbb,0,9
+ccc,0,9
+ddd,0,9
+eee,0,7
+fff,0,9
+ggg,0,9
+hhh,0,9
+iii,0,9
+jjj,0,9
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q07.py').read())
+>>> import os; print(os.popen('python q07.py').read())
 ('0', ['C'])
 ('1', ['E', 'B', 'D', 'A', 'A', 'E'])
 ('2', ['A', 'E', 'D'])
@@ -67,7 +67,7 @@ jjj,2,5
 ('9', ['A', 'B', 'E', 'C'])
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q08.py').read())
+>>> import os; print(os.popen('python q08.py').read())
 ('0', ['C'])
 ('1', ['A', 'A', 'B', 'D', 'E', 'E'])
 ('2', ['A', 'D', 'E'])
@@ -80,7 +80,7 @@ jjj,2,5
 ('9', ['A', 'B', 'C', 'E'])
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q09.py').read())
+>>> import os; print(os.popen('python q09.py').read())
 ('0', ['C'])
 ('1', ['A', 'B', 'D', 'E'])
 ('2', ['A', 'D', 'E'])
@@ -93,7 +93,7 @@ jjj,2,5
 ('9', ['A', 'B', 'C', 'E'])
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q10.py').read())
+>>> import os; print(os.popen('python q10.py').read())
 aaa,13
 bbb,16
 ccc,23
@@ -106,7 +106,7 @@ iii,18
 jjj,18
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q11.py').read())
+>>> import os; print(os.popen('python q11.py').read())
 E,3,5
 A,3,4
 B,4,4
@@ -149,7 +149,7 @@ E,2,3
 E,3,3
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q12.py').read())
+>>> import os; print(os.popen('python q12.py').read())
 a,114
 b,40
 c,91
@@ -159,7 +159,7 @@ f,110
 g,35
 <BLANKLINE>
 
->>> import os; print(os.popen('python3 q13.py').read())
+>>> import os; print(os.popen('python q13.py').read())
 E,22
 A,14
 B,14
